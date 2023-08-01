@@ -11,4 +11,7 @@ INPUT.wav is the name of an original audio file and OUTPUT.wav is the name of an
 Execute  $ ./volume INPUT.wav OUTPUT.wav 2.0 
 -- When you listen to output.wav (as by control-clicking on output.wav in the file browser, choosing Download, and then opening the file in an audio player on your computer), it should be twice as loud as input.wav!
 
+or
 
+$ ./volume input.wav output.wav 0.5 
+--- When you listen to output.wav, it should be half as loud as input.wav!
